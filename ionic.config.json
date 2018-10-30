@@ -1,0 +1,7 @@
+{
+  "name": "BabyCuckoo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
