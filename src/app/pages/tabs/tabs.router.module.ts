@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { TabsPage } from './tabs.page';
-import { HomePage } from '../home/home.page';
+import { QuickplayPage } from '../quickplay/quickplay.page';
 import { AboutPage } from '../about/about.page';
-import { ContactPage } from '../contact/contact.page';
+import { HelpPage } from '../help/help.page';
+import { ProgrammedplayPage } from '../programmedplay/programmedplay.page';
 
 const routes: Routes = [
   {
@@ -13,29 +14,34 @@ const routes: Routes = [
     children: [
       {
         path: '',
-        redirectTo: '/tabs/(home:home)',
+        redirectTo: '/tabs/(quickplay:quickplay)',
         pathMatch: 'full',
       },
       {
-        path: 'home',
-        outlet: 'home',
-        component: HomePage
+        path: 'quickplay',
+        outlet: 'quickplay',
+        component: QuickplayPage
+      },
+      {
+        path: 'programmedplay',
+        outlet: 'programmedplay',
+        component: ProgrammedplayPage
+      },
+      {
+        path: 'help',
+        outlet: 'help',
+        component: HelpPage
       },
       {
         path: 'about',
         outlet: 'about',
         component: AboutPage
-      },
-      {
-        path: 'contact',
-        outlet: 'contact',
-        component: ContactPage
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/(home:home)',
+    redirectTo: '/tabs/(quickplay:quickplay)',
     pathMatch: 'full'
   }
 ];
