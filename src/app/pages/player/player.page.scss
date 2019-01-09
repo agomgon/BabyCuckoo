@@ -1,0 +1,113 @@
+body {   
+}
+@keyframes  coloredframe {
+1% { background-color: AliceBlue; }
+2% { background-color: AntiqueWhite; }
+3% { background-color: Aqua; }
+4% { background-color: Aquamarine; }
+5% { background-color: Azure; }
+6% { background-color: Beige; }
+7% { background-color: Bisque; }
+8% { background-color: Black; }
+9% { background-color: BlanchedAlmond; }
+10% { background-color: Blue; }
+11% { background-color: BlueViolet; }
+12% { background-color: Brown; }
+13% { background-color: BurlyWood; }
+14% { background-color: CadetBlue; }
+15% { background-color: Chartreuse; }
+16% { background-color: Chocolate; }
+17% { background-color: Coral; }
+18% { background-color: CornflowerBlue; }
+19% { background-color: Cornsilk; }
+20% { background-color: Crimson; }
+21% { background-color: Cyan; }
+22% { background-color: DarkCyan; }
+23% { background-color: DarkGoldenRod; }
+24% { background-color: DarkMagenta; }
+25% { background-color: DarkOliveGreen; }
+26% { background-color: DarkOrange; }
+27% { background-color: DarkOrchid; }
+28% { background-color: DarkRed; }
+29% { background-color: DarkSalmon; }
+30% { background-color: DarkSeaGreen; }
+31% { background-color: DarkSlateBlue; }
+32% { background-color: DarkSlateGray; }
+33% { background-color: DarkTurquoise; }
+34% { background-color: DarkViolet; }
+35% { background-color: DeepPink; }
+36% { background-color: DeepSkyBlue; }
+37% { background-color: DimGray; }
+38% { background-color: DimGrey; }
+39% { background-color: DodgerBlue; }
+40% { background-color: FireBrick; }
+41% { background-color: FloralWhite; }
+42% { background-color: ForestGreen; }
+43% { background-color: Fuchsia; }
+44% { background-color: Gainsboro; }
+45% { background-color: GhostWhite; }
+46% { background-color: Gold; }
+47% { background-color: GoldenRod; }
+48% { background-color: Gray; }
+49% { background-color: Grey; }
+50% { background-color: Green; }
+51% { background-color: GreenYellow; }
+52% { background-color: HoneyDew; }
+53% { background-color: HotPink; }
+54% { background-color: IndianRed ; }
+55% { background-color: Indigo  ; }
+56% { background-color: Ivory; }
+57% { background-color: Khaki; }
+58% { background-color: Lavender; }
+59% { background-color: LavenderBlush; }
+60% { background-color: LawnGreen; }
+61% { background-color: LemonChiffon; }
+62% { background-color: LightBlue; }
+63% { background-color: LightCoral; }
+64% { background-color: LightCyan; }
+65% { background-color: LightGoldenRodYellow; }
+66% { background-color: LightGray; }
+67% { background-color: LightGrey; }
+68% { background-color: LightGreen; }
+69% { background-color: LightPink; }
+70% { background-color: LightSalmon; }
+71% { background-color: LightSeaGreen; }
+72% { background-color: LightSkyBlue; }
+73% { background-color: LightSlateGray; }
+74% { background-color: LightSlateGrey; }
+75% { background-color: LightSteelBlue; }
+76% { background-color: LightYellow; }
+77% { background-color: Lime; }
+78% { background-color: LimeGreen; }
+79% { background-color: Linen; }
+80% { background-color: Magenta; }
+81% { background-color: Maroon; }
+82% { background-color: MediumAquaMarine; }
+83% { background-color: MediumBlue; }
+84% { background-color: MediumOrchid; }
+85% { background-color: MediumPurple; }
+86% { background-color: MediumSeaGreen; }
+87% { background-color: MediumSlateBlue; }
+88% { background-color: MediumSpringGreen; }
+89% { background-color: MediumTurquoise; }
+90% { background-color: MediumVioletRed; }
+91% { background-color: MidnightBlue; }
+92% { background-color: MintCream; }
+93% { background-color: MistyRose; }
+94% { background-color: Moccasin; }
+95% { background-color: NavajoWhite; }
+96% { background-color: Navy; }
+97% { background-color: OldLace; }
+98% { background-color: Olive; }
+99% { background-color: OliveDrab; }
+100% { background-color: Orange; }
+}
+.center
+{ 
+  background-color: #fff;
+     -webkit-animation: random 1000s infinite;
+     animation: coloredframe 1000s infinite;
+  margin:auto;
+  position:absolute;
+  top:0; bottom:0; left:0; right:0;
+}

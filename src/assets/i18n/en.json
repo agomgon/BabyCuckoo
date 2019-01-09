@@ -1,0 +1,20 @@
+{
+    "TABQUICK":"Quick",
+    "TABPROGRAM":"Program",
+    "TABHELP":"Help",
+    "TABABOUT":"About",
+    "HEADERQUICK":"Quickplay",
+    "QUICK_MAINTEXT":"Press Play for an automatic 5 minutes play.",
+    "HEADERPROGRAM":"Quickplay",
+    "PROGRAM_CHOOSETIME":"Choose a playing duration and press Play.",
+    "PROGRAM_MINUTES":"minute(s).",
+    "HEADERHELP":"Help",
+    "HEADERABOUT":"About",
+    "ABOUT_PAR1":"This is an application that works offline as cuckoo for babies.",
+    "ABOUT_PAR2":"The app does not need any permission, does not connect to the Internet or take audio or video.",
+    "ABOUT_PAR3":"This app is an example of Clean Architecture on hybrid developments.",
+    "BTNPLAY":"Play",
+    "BTNSTOP":"Stop",
+    "HELP_TITLE":"Help",
+    "HELP_MESSAGES":["Press Play for 5 minutes mode.#/assets/help/help_1.png","Select playing time and press Play.#/assets/help/help_2.png","Press Stop to close the player and return to the previous screen.#/assets/help/help_3.png"]
+}

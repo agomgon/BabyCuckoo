@@ -1,10 +1,10 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Quickplay</ion-title>
+    <ion-title>{{'HEADERQUICK' | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs">docs</a> will be your guide.</p>
+<ion-content padding class="randomBackgroundQuick">
+    <p class="texts">{{'QUICK_MAINTEXT' | translate}}</p>
+    <button ion-button class="footer" (click)="onPlayClicked();">{{'BTNPLAY' | translate}}</button>
 </ion-content>

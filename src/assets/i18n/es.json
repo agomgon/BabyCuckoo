@@ -1,0 +1,20 @@
+{
+    "TABQUICK":"Rápido",
+    "TABPROGRAM":"Programa",
+    "TABHELP":"Ayuda",
+    "TABABOUT":"Acerca",
+    "HEADERQUICK":"Modo rápido",
+    "QUICK_MAINTEXT":"Pulse en Reproducir para un programa de 5 minutos.",
+    "HEADERPROGRAM":"Modo Programado",
+    "PROGRAM_CHOOSETIME":"Elige una duración y pulse en Reproducir",
+    "PROGRAM_MINUTES":"minuto(s).",
+    "HEADERHELP":"Ayuda",
+    "HEADERABOUT":"Acerca",
+    "ABOUT_PAR1":"Esta es una aplicación desconectada para bebés.",
+    "ABOUT_PAR2":"La aplicación no necesita ningún permiso especial, no se conecta a Internet ni capturá fotos o audios.",
+    "ABOUT_PAR3":"Esta aplicación es una demostración de arquitecturas limpias en híbrido.",
+    "BTNPLAY":"Reproducir",
+    "BTNSTOP":"Parar",
+    "HELP_TITLE":"Ayuda",
+    "HELP_MESSAGES":["Presiona Reproducir para 5 miutos música.#/assets/help/help_1.png","Selecciona el tiempo de reproducción y presiona Reproducir.#/assets/help/help_2.png","Presiona Parar para detener el reproductor y volver a la pantalla anterior.#/assets/help/help_3.png"]
+}

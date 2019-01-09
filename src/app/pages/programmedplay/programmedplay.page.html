@@ -1,9 +1,17 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>programmedplay</ion-title>
+    <ion-title>{{'HEADERPROGRAM' | translate}}</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content padding>
-
+<ion-content padding class="randomBackgroundProgrammed">
+  <p class="texts">{{'PROGRAM_CHOOSETIME' | translate}}</p>
+  <ion-item class="texts">
+    {{playDuration}} {{'PROGRAM_MINUTES' | translate}}
+  </ion-item>
+  <ion-item>
+    <ion-range min={{MIN_DURATION}} max={{MAX_DURATION}} [(ngModel)]="playDuration" color="color-primary-contrast">
+    </ion-range>
+  </ion-item>
+  <button ion-button class="footer" (click)="onPlayClicked();">{{'BTNPLAY' | translate}}</button>
 </ion-content>

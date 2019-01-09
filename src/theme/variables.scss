@@ -77,3 +77,55 @@
   --ion-color-light-tint: #f5f6f9;
 
 }
+
+$randomBackgroundIndexQuick: random(16);
+$randomBackgroundIndexProgrammed: random(16);
+$randomBackgroundIndexHelp: random(16);
+$randomBackgroundIndexAbout: random(16);
+
+.randomBackgroundQuick{
+    background-image: url("/assets/background/background" + $randomBackgroundIndexQuick + ".png") !important;
+    --ion-background-color: #ffff0000;
+    background-size: cover;
+}
+
+.randomBackgroundProgrammed{
+  background-image: url("/assets/background/background" + $randomBackgroundIndexProgrammed + ".png") !important;
+  --ion-background-color: #ffff0000;
+  background-size: cover;
+}
+
+.randomBackgroundHelp{
+  background-image: url("/assets/background/background" + $randomBackgroundIndexHelp + ".png") !important;
+  --ion-background-color: #ffff0000;
+  background-size: cover;
+}
+
+.randomBackgroundAbout{
+  background-image: url("/assets/background/background" + $randomBackgroundIndexAbout + ".png") !important;
+  --ion-background-color: #ffff0000;
+  background-size: cover;
+}
+
+.cardContentStyle{
+  width: 70%;
+  height: 70%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 20%;
+  background-color: #00A0FF;
+  color: white;
+  text-align: center;
+  font-size: 300%;
+}
+
+.texts{
+  color: white;
+  font-size: 200%;
+  left: 5;
+}

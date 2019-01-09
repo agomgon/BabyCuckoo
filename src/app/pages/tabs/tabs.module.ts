@@ -11,6 +11,7 @@ import { QuickplayPageModule } from '../quickplay/quickplay.module';
 import { ProgrammedplayPageModule } from '../programmedplay/programmedplay.module';
 import { HelpPageModule } from '../help/help.module';
 import { AboutPageModule } from '../about/about.module';
+import { TranslateModule } from '@ngx-translate/core';
 
 @NgModule({
   imports: [
@@ -18,6 +19,7 @@ import { AboutPageModule } from '../about/about.module';
     CommonModule,
     FormsModule,
     TabsPageRoutingModule,
+    TranslateModule,
     QuickplayPageModule,
     ProgrammedplayPageModule,
     AboutPageModule,
