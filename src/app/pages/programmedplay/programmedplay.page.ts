@@ -19,7 +19,6 @@ export class ProgrammedplayPage implements OnInit {
   }
 
   public onPlayClicked() : void{
-    alert('Pulsado con ' + this.playDuration);
-    this.navCtrl.navigateForward("/player/"+ (this.playDuration*60) +"/1000");
+    this.navCtrl.navigateForward(CONFIG.ROUTER_PLAYER + (this.playDuration*60) + "/" + CONFIG.TIME_DEFAULTRANDOM);
   }
 }

@@ -4,6 +4,7 @@ export let CONFIG = {
     TIME_MINDURATION: 1,
     TIME_MAXDURATION: 20,
     MUSIC_DEFAULT: "/assets/audio/main.flac",
+    ROUTER_PLAYER: "/player/",
     ROUTING_PARAMPLAYER_PLAYTIME: "playTime",
     ROUTING_PARAMPLAYER_RANDOMTIME: "randomTime",
     LANGUAGE_SPANISH: "es",

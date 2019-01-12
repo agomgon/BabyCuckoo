@@ -14,6 +14,6 @@ export class QuickplayPage {
   }
 
   public onPlayClicked() : void{
-    this.navCtrl.navigateForward("/player/" + CONFIG.TIME_DEFAULTPLAYING + "/" + CONFIG.TIME_DEFAULTRANDOM); //TODO: a variables globales
+    this.navCtrl.navigateForward(CONFIG.ROUTER_PLAYER + CONFIG.TIME_DEFAULTPLAYING + "/" + CONFIG.TIME_DEFAULTRANDOM); //TODO: a variables globales
   }
 }
